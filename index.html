@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasir Mebel</title>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!--=============== ICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== GOOGLE FONT ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/images/logo copy.jpg" type="image/x-icon">
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo"><img src="./assets/images/logo.jpg" class="nav-logo-img">Yasir Mebel</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#collection" class="nav-link">To'plam</a></li>
+                    <li class="nav-item"><a href="#company" class="nav-link">Kompaniya</a></li>
+                    <li class="nav-item"><a href="#store" class="nav-link">Do'kon</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Biz bilan bog'lanish</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close"><i class="bx bx-x"></i></div>
+                <div class="nav__dark">
+                    <a href="tel:+998977708151"><i class='bx bx-phone change-theme'></i></a>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle"><i class='bx bx-align-right'></i></div>
+        </nav>
+    </header>
+    
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        
+        <!--=============== HERO ===============-->
+        <section class="home section" id="home">
+            <div class="home-container container">
+                <h1 class="home-title">Kreslolarning eng yaxshi <br> to'plami bu erda</h1>
+                <div class="home-icons">
+                    <p class="home-desc">
+                        Turli xil sifatli stullar va xalqaro standartlarni toping. Faqat shu veb-sayt bilan siz
+                        sifatli stullarni ko'rish va sotib olish mumkin. To'plam tugashidan oldin darhol o'zingiz tanlagan eng yaxshi o'rindiqga buyurtma bering!</p>
+                    <a href="#collection"><i class='bx bx-down-arrow-alt change-theme home-theme'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== COLLECTION ===============-->
+        <section class="collection section" id="collection">
+            <div class="collection-container container">
+
+                <div class="collection-data">
+                    <h1 class="collection-title">Nima uchun bizning mahsulotimizni <span class="span">tanlashingiz kerak?</span></h1>
+                </div>
+                
+                <ul class="collection-list grid">
+                    <li>
+                        <div class="collection-card">
+                            <div class="card-icon">
+                                <i class='bx bxs-badge-check change-theme collection-theme'></i>
+                            </div>
+                            <div>
+                                <h3 class="collection-list-title">Eng yaxshi sifat</h3>
+                                <p class="collection-list-desc">Biz har doim mijozlar ehtiyojini qondirishni hamma narsadan ustun qo'yamiz.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-card">
+                            <div class="card-icon">
+                                <i class='bx bxs-plane-alt changeheme collection-theme'></i>
+                            </div>
+                            <div>
+                                <h3 class="collection-list-title">Xalqaro standart</h3>
+                                <p class="collection-list-desc">Bizda allaqachon xalqaro standartlar mavjud va biz ko'pincha chet eldan import qilamiz.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-card">
+                            <div class="card-icon">
+                                <i class='bx bxs-check-shield change-theme collection-theme'></i>
+                            </div>
+                            <div>
+                                <h3 class="collection-list-title">Uzoq kafolat</h3>
+                                <p class="collection-list-desc">Biz taqdim etayotgan barcha mahsulotlar 2-3 yilgacha uzoq kafolatga ega.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--=============== COMPANY ===============-->
+        <section class="company section" id="company">
+
+           <div class="filters container">
+                <button class="filter-options active">Hammasi</button>
+                <button class="filter-options">Kreslo</button>
+                <button class="filter-options">Dam olish uchun</button>
+                <button class="filter-options">Kafe</button>
+                <button class="filter-options">Tebranadigan</button>
+                <button class="filter-options">Lagerlik</button>
+                <button class="filter-options">Yig'iladigan</button>
+                <button class="filter-options">Stoli bilan</button>
+           </div>
+
+           <div class="company-container container">
+                <ul class="has-scrollbar">
+                    <!--1st-->
+                    <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                    <li class="scrollbar-item">
+                            <div class="company-card">
+                                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                    <img src="./assets/images/product-1.jpg" width="500" height="600" alt="Armless chair" class="img-cover">
+                                    <ul class="company-icon">
+                                        <li>
+                                            <button class="company-btn" title="add to cart">
+                                                <i class='bx bx-link-external'></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="card-title">Ushatgichsiz stull</h3>
+                                    <p class="card-text">To'plamda bor</p>
+                                </div>
+                            </div>
+                    </li>
+                    </a>
+
+                    <!--2nd-->
+                    <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-2.jpg" width="500" height="600" alt="Wooden chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Yog'och stul</h3>
+                                <p class="card-text">To'plamda bor</p>
+                            </div>
+                        </div>
+                    </li>
+                    </a>
+                    <!--3rd-->
+                    <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-3.jpg" width="500" height="600" alt="Armchair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Kreslo</h3>
+                                <p class="card-text">To'plamda bor</p>
+                            </div>
+                        </div>
+                    </li>
+                    </a>
+                    <!--4th-->
+                    <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-4.jpg" width="500" height="600" alt="Rocking chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Tebranadigan stul</h3>
+                                <p class="card-text">To'plamda bor</p>
+                            </div>
+                        </div>
+                    </li>
+                    </a>
+                    <!--5th-->
+                    <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-5.jpg" width="500" height="600" alt="Wooden chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Yog'och stul</h3>
+                                <p class="card-text">To'plamda bor</p>
+                            </div>
+                        </div>
+                    </li>
+                    </a>
+                    <!--6th-->
+                    <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-6.jpg" width="500" height="600" alt="Armless chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Ushatgichsiz stull</h3>
+                                <p class="card-text">To'plamda bor</p>
+                            </div>
+                        </div>
+                    </li>
+                    </a>
+                    <!--7th-->
+                    <a class="scrollbar-item" href="./cotalog.html" target="_blank"></a>
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-8.jpg" width="500" height="600" alt="Armless chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Ushatgichsiz stull</h3>
+                                <p class="card-text">To'plamda bor</p>
+                            </div>
+                        </div>
+                    </li>
+                    </a>
+                </ul>
+
+                <div class="hallmark">
+                    <h3 class="hallmark-title">Aniqlik va sifat bizning o'ziga xos belgimizdir</h3>
+                    <p class="hallmark-desc">Mahsulotlarimiz ko'pincha yuqori sifatli materiallardan ishlab chiqariladi va tafsilotlarga e'tibor qaratib ishlab chiqilgan va ishlab chiqariladi. 
+                        Shuningdek, u kafolat yoki kafolat bilan ta'minlanishi mumkin, bu bizning iste'molchimizning chidamliligi va ishlashiga ishonchini beradi.</p>
+                </div>
+           </div>
+        </section>
+
+        <!--=============== STORE ===============-->
+        <section class="store" id="store">
+
+            <div class="title-wrapper section container">
+                <h1 class="store-title">Yangi mahsulotlar</span></h1>
+                <p class="store-desc">Chiroyli ishlangan bu mebel har qanday xonaga nafislik va nafosat bag'ishlaydi.</p>
+            </div>
+
+            <ul class="store-list">
+                <!--1st-->
+                <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                <li>
+                    <div class="store-card has-bg-image has-after" style="background-image: url('./assets/images/product-8.jpg')">
+                        <div class="store-content">
+                            <div>
+                                <p class="store-content-desc">Turi</p>
+                                <h3 class="store-content-title">Ushatgichsiz stullar</h3>
+                            </div>
+                            <div>
+                                <p class="store-content-desc">Mavjudligi</p>
+                                <h3 class="store-content-title">60 dona</h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                </a>
+                <!--2nd-->
+                <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                <li>
+                    <div class="store-card has-bg-image has-after" style="background-image: url('./assets/images/product-6.jpg')">
+                        <div class="store-content">
+                            <div>
+                                <p class="store-content-desc">Turi</p>
+                                <h3 class="store-content-title">Kreslo</h3>
+                            </div>
+                            <div>
+                                <p class="store-content-desc">Mavjudligi</p>
+                                <h3 class="store-content-title">75 dona</h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                </a>
+                <!--3rd-->
+                <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                <li>
+                    <div class="store-card has-bg-image has-after" style="background-image: url('./assets/images/product-1.jpg')">
+                        <div class="store-content">
+                            <div>
+                                <p class="store-content-desc">Turi</p>
+                                <h3 class="store-content-title">Ushatgichsiz stullar</h3>
+                            </div>
+                            <div>
+                                <p class="store-content-desc">Mavjudligi</p>
+                                <h3 class="store-content-title">41 dona</h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                </a>
+                <!--4th-->
+                <a class="scrollbar-item" href="./cotalog.html" target="_blank">
+                <li>
+                    <div class="store-card has-bg-image has-after" style="background-image: url('./assets/images/product-2.jpg')">
+                        <div class="store-content">
+                            <div>
+                                <p class="store-content-desc">Turi</p>
+                                <h3 class="store-content-title">Yog'och stullar</h3>
+                            </div>
+                            <div>
+                                <p class="store-content-desc">Mavjudligi</p>
+                                <h3 class="store-content-title">61 dona</h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                </a>
+            </ul>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section container" id="contact">
+            <h2 class="section-title">Bizning baxtli mijozlarimiz <br> nima deyishadi</h2>
+            <p class="section-subtitle">Mahsulotlarimiz haqida odamlar nima deyishini bilib oling.</p>
+
+            <div class="contact-container swiper">
+                <div class="swiper-wrapper">
+                    <article class="contact-card swiper-slide">
+                        <i class='bx bxs-quote-left contact-theme'></i>
+                        <p class="contact-message">Men yaqinda ushbu mahsulotni sotib oldim va uning sifati va ishlashidan juda hayratda qoldim. 
+                            Bu yaxshi tayyorlangan, ishonchli va har tomonlama mening kutganimdan oshib ketdi. Kompaniya tomonidan mijozlarga xizmat ko'rsatish ham a'lo darajada edi va men ushbu mahsulotni boshqalarga tavsiya qilaman.</p>
+                        <h3 class="contact-title">Asrorbek Ashirov</h3>
+                        <span class="contact-span">Mijozlarimiz</span>
+                    </article>
+                    <article class="contact-card swiper-slide">
+                        <i class='bx bxs-quote-left contact-theme'></i>
+                        <p class="contact-message">Men yaqinda ushbu mahsulotni sotib oldim va uning sifati va ishlashidan juda hayratda qoldim. Bu yaxshi tayyorlangan, ishonchli va har tomonlama mening kutganimdan oshib ketdi.
+                            Kompaniya tomonidan mijozlarga xizmat ko'rsatish ham a'lo darajada edi va men ushbu mahsulotni boshqalarga tavsiya qilaman.</p>
+                        <h3 class="contact-title">Saidbek Mamadaliev</h3>
+                        <span class="contact-span">Mijozlarimiz</span>
+                    </article>
+                    <article class="contact-card swiper-slide">
+                        <i class='bx bxs-quote-left contact-theme'></i>
+                        <p class="contact-message">Men yaqinda ushbu mahsulotni sotib oldim va undan juda mamnunman. Sifat juda zo'r va chidamlilik va ishlash nuqtai nazaridan mening kutganimdan oshib ketdi.
+                            Kompaniya tomonidan mijozlarga xizmat ko'rsatish ham ajoyib edi va men ushbu mahsulotni boshqalarga tavsiya qilaman.</p>
+                        <h3 class="contact-title">Alisher Abdullaev</h3>
+                        <span class="contact-span">Mijozlarimiz</span>
+                    </article>
+                    <article class="contact-card swiper-slide">
+                        <i class='bx bxs-quote-left contact-theme'></i>
+                        <p class="contact-message">Men yaqinda ushbu mahsulotni sotib oldim va uning sifati va samaradorligidan hayratda qoldim. Bu yaxshi ishlab chiqilgan, ishonchli va har tomonlama mening kutganimdan oshib ketdi.
+                            Kompaniya tomonidan mijozlarga xizmat ko'rsatish ham ajoyib edi va men ushbu mahsulotni boshqalarga tavsiya qilaman.</p>
+                        <h3 class="contact-title">Nigora Turgunovna</h3>
+                        <span class="contact-span">Mijozlarimiz</span>
+                    </article>
+                </div>
+                <div class="swiper-button-next"><i class='bx bx-right-arrow-alt'></i></div>
+                <div class="swiper-button-prev"><i class='bx bx-left-arrow-alt'></i></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-content grid">
+                <!-- footer 1st -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Tez havolalar</h3>
+                    <ul>         
+                        <li class="footer-item"><a href="index.html" class="footer-link">Bosh sahifa</a></li>
+                        <li class="footer-item"><a href="#collection" class="footer-link">To'plamlar</a></li>
+                        <li class="footer-item"><a href="#company" class="footer-link">Kompaniya</a></li>
+                        <li class="footer-item"><a href="#store" class="footer-link">Do'kon</a></li>
+                    </ul>
+                </div>
+                <!-- footer 3rd -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Biz bilan bog'lanish</h3>
+                    <ul>                 
+                        <li class="footer-item"><a href="https://t.me/yasirmebeluz" class="footer-link">Telegram</a></li>
+                        <li class="footer-item"><a href="https://wa.me/+79206858000" class="footer-link">Whatsapp</a></li>
+                        <li class="footer-item"><a href="https://youtube.com/@yasirmebeluz" class="footer-link">YouTube</a></li>
+                        <li class="footer-item"><a href="https://instagram.com/yasirmebeluz?igshid=ZDdkNTZiNTM=" class="footer-link">Instagram</a></li>
+                    </ul>
+                </div>
+                <!-- footer 4th -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Ma`lumot</h3>
+                    <ul>
+                        <li class="footer-item"><a href="#" class="footer-link">Kompaniya</a></li>
+                        <li class="footer-item"><a href="https://www.google.com/maps/place/41°21'04.9%22N+69°23'19.4%22E/@41.3513611,69.3887222,17z/data=!3m1!4b1!4m4!3m3!8m2!3d41.3513611!4d69.3887222" class="footer-link">Bizning joylashuvimiz</a></li>
+                        <li class="footer-item"><a href="tel:+998977708151" class="footer-link">Mijozlarni qo'llab-quvvatlash</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- footer rights -->
+            <div class="footer-rights">
+                <a href="index.html" class="footer-logo"><img src="./assets/images/logo.jpg" class="nav-logo-img">Yasir Mebel</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
