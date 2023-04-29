@@ -627,12 +627,16 @@ input{
 
 .contact-title{
     font-size: var(--h3-fs);
-    margin-top: .75rem;
 }
 
 .contact-span{
     color: var(--grey-clr-alt);
     margin-bottom: 20rem;
+}
+
+a.link1, a.link1:visited {
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 /* swiper */
@@ -647,7 +651,7 @@ input{
     bottom: 0;
     width: initial;
     height: initial;
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: var(--black-clr);
     border: 0.5px solid var(--black-clr);
     border-radius: 50%;
@@ -658,16 +662,24 @@ input{
 .swiper-button-prev:hover,
 .swiper-button-next:hover{
     color: var(--white-clr);
-    background-color: black;
     border: 0.5px solid var(--black-clr);
 }
 
 .swiper-button-prev{
     left: calc(50% - 2rem);
+    margin: auto;
 }
 
 .swiper-button-next{
     right: calc(50% - 2rem);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+
 }
 
 /*=============== FOOTER ===============*/
